@@ -6,6 +6,8 @@ package dp04_strategy;
 public interface StringStrategy {
 
     /**
+     * action
+     *
      * @param old
      * @return
      */
