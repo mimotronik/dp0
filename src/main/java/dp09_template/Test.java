@@ -11,5 +11,9 @@ public class Test {
 
         javaWorker.workDetail();
 
+        CppWorker cppWorker = new CppWorker();
+
+        cppWorker.workDetail();
+
     }
 }

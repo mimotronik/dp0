@@ -14,6 +14,7 @@ public class Singleton {
     }
 
     public static Singleton getInstance() {
+        // 双重检查锁
         if (instance == null) {
             synchronized (Singleton.class) {
                 if (instance == null) {

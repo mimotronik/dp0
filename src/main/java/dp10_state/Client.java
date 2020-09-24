@@ -2,6 +2,8 @@ package dp10_state;
 
 
 /**
+ * 状态模式
+ *
  * @author winterfell
  */
 public class Client {

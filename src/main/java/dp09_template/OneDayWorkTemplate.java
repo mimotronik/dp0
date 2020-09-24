@@ -1,6 +1,8 @@
 package dp09_template;
 
 /**
+ * 模板方法模式 共用的方法抽象出来
+ *
  * @author winterfell
  */
 public abstract class OneDayWorkTemplate implements Work {

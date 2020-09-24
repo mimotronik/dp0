@@ -5,9 +5,9 @@ package dp08_facade;
  */
 public class Computer {
 
-    private Cpu cpu;
-    private Memory memory;
-    private Screen screen;
+    private final Cpu cpu;
+    private final Memory memory;
+    private final Screen screen;
 
     public Computer() {
         this.cpu = new Cpu();
