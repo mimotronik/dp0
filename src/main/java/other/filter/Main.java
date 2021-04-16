@@ -1,5 +1,8 @@
 package other.filter;
 
+import other.filter.impl.AuthenticationFilter;
+import other.filter.impl.DebugFilter;
+
 /**
  * Main
  *

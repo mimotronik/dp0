@@ -1,4 +1,6 @@
-package other.filter;
+package other.filter.impl;
+
+import other.filter.Filter;
 
 /**
  * DebugFilter
