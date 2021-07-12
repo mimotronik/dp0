@@ -10,9 +10,12 @@ import dp02_factory.abstractFactory.components.detail.NvidiaGraphicsCard;
 import dp02_factory.abstractFactory.components.detail.Z390Motherboard;
 
 /**
+ * The type Excellent computer.
+ *
  * @author winterfell
  */
 public class ExcellentComputer implements Computer {
+
     @Override
     public Cpu createCpu() {
         return new I7Cpu();
@@ -31,5 +34,10 @@ public class ExcellentComputer implements Computer {
     @Override
     public Power createPower() {
         return new GoldenPower();
+    }
+
+    @Override
+    public void show() {
+
     }
 }

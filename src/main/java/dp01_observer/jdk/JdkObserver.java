@@ -4,9 +4,11 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
+ * Observer 为观察者
+ *
  * @author winterfell
  */
-public class Observer1 implements Observer {
+public class JdkObserver implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {

@@ -1,9 +1,11 @@
 package dp02_factory.abstractFactory;
 
 /**
+ * The type Main.
+ *
  * @author winterfell
  */
-public class Test {
+public class Main {
 
     public static void main(String[] args) {
 

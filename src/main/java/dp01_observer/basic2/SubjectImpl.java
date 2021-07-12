@@ -6,13 +6,13 @@ import java.util.List;
 /**
  * @author winterfell
  */
-public class MySubject implements Subject {
+public class SubjectImpl implements Subject {
 
-    private List<Listener> listeners;
+    private final List<Listener> listeners;
 
     private Status status;
 
-    public MySubject() {
+    public SubjectImpl() {
         this.listeners = new ArrayList<>();
     }
 

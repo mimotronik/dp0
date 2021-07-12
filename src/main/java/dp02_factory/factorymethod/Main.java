@@ -3,7 +3,7 @@ package dp02_factory.factorymethod;
 /**
  * @author winterfell
  */
-public class Test {
+public class Main {
 
     public static void main(String[] args) {
 

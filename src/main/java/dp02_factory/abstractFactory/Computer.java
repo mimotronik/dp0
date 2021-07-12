@@ -13,21 +13,21 @@ public interface Computer {
     /**
      * cpu
      *
-     * @return
+     * @return cpu
      */
     Cpu createCpu();
 
     /**
      * 显卡
      *
-     * @return
+     * @return graphics card
      */
     GraphicsCard createGraphicsCard();
 
     /**
      * 主板
      *
-     * @return
+     * @return motherboard
      */
     Motherboard createMotherboard();
 
@@ -35,8 +35,14 @@ public interface Computer {
     /**
      * 电源
      *
-     * @return
+     * @return power
      */
     Power createPower();
 
+
+
+    /**
+     * Show.
+     */
+    void show();
 }

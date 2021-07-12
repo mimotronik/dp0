@@ -4,21 +4,23 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * 主题的实现
+ *
  * @author winterfell
  */
-public class MySubject implements Subject {
+public class SubjectImpl implements Subject {
 
     /**
-     * 观察者的集合
+     * 观察者的集合，由被观察者持有
      */
-    private Set<Observer> observers;
+    private final Set<Observer> observers;
 
     /**
      * 消息，消息一旦更新 需要通知给观察者
      */
     private String msg;
 
-    public MySubject() {
+    public SubjectImpl() {
         this.observers = new HashSet<>();
     }
 
@@ -33,20 +35,19 @@ public class MySubject implements Subject {
     }
 
     @Override
-    public void notifyAllObserver() {
-        for (Observer observer : observers) {
-            observer.update(msg);
-        }
+    public void publish(String msg) {
+        // 赋值
+        this.msg = msg;
+
+        notifyAllObserver();
+
     }
 
     /**
-     * 发布消息
+     * Notify all observer.
      */
-    public void publishMsg(String msg) {
-        this.msg = msg;
-
-        // 主动通知所有的观察者
-        this.notifyAllObserver();
+    private void notifyAllObserver() {
+        observers.forEach(observer -> observer.update(msg));
     }
 
 }

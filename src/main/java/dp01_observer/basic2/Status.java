@@ -3,9 +3,15 @@ package dp01_observer.basic2;
 /**
  * @author winterfell
  */
-public enum  Status {
+public enum Status {
 
+    /**
+     * 开启状态
+     */
     START,
 
-    END;
+    /**
+     * 结束状态
+     */
+    END
 }

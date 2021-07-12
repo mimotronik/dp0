@@ -32,4 +32,9 @@ public class SimpleComputer implements Computer {
     public Power createPower() {
         return new SilveryPower();
     }
+
+    @Override
+    public void show() {
+
+    }
 }

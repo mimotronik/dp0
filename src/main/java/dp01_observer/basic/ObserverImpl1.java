@@ -3,7 +3,7 @@ package dp01_observer.basic;
 /**
  * @author winterfell
  */
-public class MyObserver1 implements Observer {
+public class ObserverImpl1 implements Observer {
 
     @Override
     public void update(String msg) {
