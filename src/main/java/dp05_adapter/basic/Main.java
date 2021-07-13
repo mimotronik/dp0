@@ -1,9 +1,9 @@
-package dp05_adapter;
+package dp05_adapter.basic;
 
 /**
  * @author winterfell
  */
-public class Test {
+public class Main {
 
     public static void main(String[] args) {
 

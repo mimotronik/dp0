@@ -9,7 +9,7 @@ import dp06_command.requester.Keypad;
 /**
  * @author winterfell
  */
-public class Test {
+public class Main {
 
     public static void main(String[] args) {
 

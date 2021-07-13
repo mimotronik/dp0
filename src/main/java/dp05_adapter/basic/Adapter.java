@@ -1,11 +1,11 @@
-package dp05_adapter;
+package dp05_adapter.basic;
 
 /**
  * @author winterfell
  */
 public class Adapter implements Target {
 
-    private Target adaptee;
+    private final Target adaptee;
 
     @Override
     public String getValue() {

@@ -17,7 +17,7 @@ public class StringContext {
     /**
      * 主要用来修改策略
      *
-     * @param stringStrategy
+     * @param stringStrategy the string strategy
      */
     public void setStringStrategy(StringStrategy stringStrategy) {
         this.stringStrategy = stringStrategy;

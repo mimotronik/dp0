@@ -7,7 +7,7 @@ import dp06_command.receiver.AudioPlayer;
  */
 public class PlayCommand implements Command {
 
-    private AudioPlayer player;
+    private final AudioPlayer player;
 
     public PlayCommand(AudioPlayer player) {
         this.player = player;
@@ -16,6 +16,5 @@ public class PlayCommand implements Command {
     @Override
     public void execute() {
         player.play();
-
     }
 }

@@ -7,7 +7,7 @@ import dp04_strategy.stratege.RemoveSpaceStrategy;
 /**
  * @author winterfell
  */
-public class Client {
+public class Main {
 
     public static void main(String[] args) {
 

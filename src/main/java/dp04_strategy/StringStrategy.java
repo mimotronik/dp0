@@ -8,8 +8,8 @@ public interface StringStrategy {
     /**
      * action
      *
-     * @param old
-     * @return
+     * @param old the old
+     * @return string
      */
     String action(String old);
 

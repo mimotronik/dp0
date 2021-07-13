@@ -1,4 +1,4 @@
-package dp05_adapter;
+package dp05_adapter.basic;
 
 /**
  * @author winterfell

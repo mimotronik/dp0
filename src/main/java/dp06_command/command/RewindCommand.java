@@ -7,7 +7,7 @@ import dp06_command.receiver.AudioPlayer;
  */
 public class RewindCommand implements Command {
 
-    private AudioPlayer player;
+    private final AudioPlayer player;
 
     public RewindCommand(AudioPlayer player) {
         this.player = player;

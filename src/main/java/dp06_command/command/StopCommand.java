@@ -7,7 +7,7 @@ import dp06_command.receiver.AudioPlayer;
  */
 public class StopCommand implements Command {
 
-    private AudioPlayer player;
+    private final AudioPlayer player;
 
     public StopCommand(AudioPlayer player) {
         this.player = player;
